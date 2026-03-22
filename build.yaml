@@ -15,6 +15,3 @@
 include:
   - board: xiao_ble//zmk
     shield: hummingbird rgbled_adapter
-  - board: xiao_rp2040//zmk
-    shield: hummingbird rgbled_adapter
-    ---
