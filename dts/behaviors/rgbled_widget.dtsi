@@ -17,3 +17,16 @@
         };
     };
 };
+/ {
+    keymap {
+        ...
+        some_layer {
+            bindings = <
+                ...
+                &ind_bat  // indicate battery level
+                &ind_con  // indicate connectivity status
+                ...
+            >;
+        };
+    };
+};
